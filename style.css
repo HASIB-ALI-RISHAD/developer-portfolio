@@ -11,7 +11,7 @@ span {
     color: red;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 5%;
     image-rendering: optimizeQuality;
@@ -44,6 +44,7 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 100px;
 }
 
 #middle-para {
@@ -53,4 +54,39 @@ section {
 
 #front-para {
     margin-bottom: 25px;
+}
+
+#exp {
+    padding-left: 105px;
+    margin-bottom: 20px;
+}
+
+.experiences-item {
+    box-shadow: 10px 10px 40px black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    border-radius: 2%;
+    margin-bottom: 5%;
+}
+
+#full-stack-developer {
+    border-left: 7px solid rgba(255, 68, 0, 0.819);
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+.bottom-corner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 400;
 }
